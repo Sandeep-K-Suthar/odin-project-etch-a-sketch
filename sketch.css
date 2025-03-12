@@ -1,0 +1,45 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+.flexbox{
+    background: yellow;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items:  center; */
+    flex-wrap:wrap;
+    width: 700px;
+    height: 500px;
+    /* height: 80vw; */
+    /* height: 50vh; */
+    margin: 20px;
+    /* padding: 50px; */
+    
+}
+.flexbox>div{
+    width: 30px;
+    height:30px;
+    border: 1px solid;
+    /* flex-grow: 1; */
+    transition: ease-out 1.5s;
+
+    
+}
+.flexbox>div:hover{
+    /* background: blue; */
+    transition: all 0s;
+    /* opacity: 0.5; */
+
+}
+.d1{
+
+}
+.d2{
+}
