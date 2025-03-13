@@ -1,31 +1,47 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
-    background: green;
+background: linear-gradient(160deg, #057ec4 0%, #39c7b6 100%);
+background-repeat:no-repeat;
+
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    padding: 150px;
+}
+body h1{
+    font-size: 3em;
+    margin-top: 0;
 }
 
 .flexbox {
-    background: yellow;
+    background: rgb(213, 239, 43);
     display: flex;
     flex-wrap: wrap;
-    width: 700px;
-    height: 500px;
-    margin: 20px;
-
+    width: 640px;
+    height: 640px;
+    filter: drop-shadow(5px 5px 15px gray);
+    user-select: none;
+    
 }
 
 .flexbox>div {
-    width: 30px;
-    height: 30px;
-    border: 1px solid;
-    transition: all 1s ease-out 0.5s;
+    width: 40px;
+    height: 40px;
+    transition: all 1s ease-in 0.5s;
+    text-align: center;
+    align-content: center;
+    box-shadow:1px 1px 1px 0px #ae5c04;
+    
 }
 
 .hover-effect.hovered {
-    transition: all 0s ease-in 0s;
+    transition: all 0s ease-out 0s;
 }
