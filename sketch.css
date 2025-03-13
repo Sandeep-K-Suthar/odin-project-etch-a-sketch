@@ -4,7 +4,8 @@
 }
 
 body {
-background: linear-gradient(160deg, #057ec4 0%, #39c7b6 100%);
+/* background: linear-gradient(160deg, #057ec4 0%, #39c7b6 100%); */
+background: linear-gradient(to right, #e96443ef, #904e95c7);
 background-repeat:no-repeat;
 
     display: flex;
@@ -19,15 +20,19 @@ background-repeat:no-repeat;
 body h1{
     font-size: 3em;
     margin-top: 0;
+    color: transparent;
+    background: linear-gradient(90deg,rgb(241, 232, 223),rgba(137, 228, 18, 0.998));
+    background-clip: text;
+    filter: drop-shadow(15px 5px 6px rgb(2, 12, 2));
 }
 
 .flexbox {
-    background: rgb(213, 239, 43);
+    background: rgb(228, 255, 52);
     display: flex;
     flex-wrap: wrap;
     width: 640px;
     height: 640px;
-    filter: drop-shadow(5px 5px 15px gray);
+    filter: drop-shadow(5px 5px 15px rgb(95, 91, 91));
     user-select: none;
     
 }
